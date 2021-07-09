@@ -1,1 +1,38 @@
-
+.App {
+  height: 380px;
+  width: 240px;
+  background-color: rgb(199, 199, 243);
+}
+.display {
+  height: 80px;
+  width: 240px;
+}
+.formula {
+  height: 30px;
+}
+.result_box {
+  display: flex;
+  align-items: center;
+}
+.button {
+  height: 60px;
+  width: 60px;
+  font-size: 25px;
+}
+.copy_button {
+  width: 20px;
+  height: 20px;
+}
+.test {
+  margin: 0;
+  font-size: 14px;
+}
+.test_2 {
+  margin: 0;
+  font-size: 22px;
+}
+.result {
+  height: 50px;
+  width: 210px;
+  text-align: end;
+}
