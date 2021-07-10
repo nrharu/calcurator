@@ -6,23 +6,37 @@
 .display {
   height: 80px;
   width: 240px;
-}
-.formula {
-  height: 30px;
+  .formula {
+    height: 30px;
+  }
+  .result_box {
+    display: flex;
+    align-items: center;
+  }
 }
 .result_box {
-  display: flex;
-  align-items: center;
+  .copy_button {
+    width: 20px;
+    height: 20px;
+  }
+  .result {
+    height: 50px;
+    width: 210px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+.result_text {
+  font-size: 100%;
+  margin: 0;
 }
 .button {
   height: 60px;
   width: 60px;
   font-size: 25px;
 }
-.copy_button {
-  width: 20px;
-  height: 20px;
-}
+
 .test {
   margin: 0;
   font-size: 14px;
@@ -30,9 +44,4 @@
 .test_2 {
   margin: 0;
   font-size: 22px;
-}
-.result {
-  height: 50px;
-  width: 210px;
-  text-align: end;
 }

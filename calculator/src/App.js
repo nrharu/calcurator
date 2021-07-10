@@ -10,7 +10,7 @@ function App() {
           {/* 計算結果 */}
           {/* <p className="test_2">テスト</p> */}
           <button className="copy_button">
-            <img src="" alt="コピーボタン" />
+            <img src="copy.jpeg" alt="" />
           </button>
           <div className="result">
             <p className="result_text">結果</p>
